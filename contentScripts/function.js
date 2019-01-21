@@ -31,6 +31,7 @@ function curentViewReader() {
     let readyButton = document.getElementById("ReadyButton");
     //BarCode
     let barCode = document.getElementById("barCode");
+    barCode.autofocus;
     //DETAILS
     let details = document.getElementById("Details");
     return {main, mainTab, errorMsg, readyButton, barCode, details};
@@ -198,20 +199,7 @@ function standartView() {
 let bilFinder = function (zipCode) {
     if (zipCode !== undefined) {
         let back = "???";
-        let bakar = [
-            ["Center", "402", "411", "412", "413", "414", "416"],
-            ["Mölndal", "431"],
-            ["Västra Frölunda", "421", "426", "436"],
-            ["Hisinge", "405", "418", "417", "422", "423", "425", ""],
-            ["Angered", "415", "424", "433"],
-            ["Kungsbacka", "428", "429", "434", "437", "439"],
-            ["På Bordet", "430"],
-            ["Mölnlycke", "435", "438"],
-            ["Kungälv", "442"],
-            ["45:", "443", "445", "446", "448", "449"],
-            ["Stenungsund", "444", "471", "472", "473"],
-            ["Hönö", "475"]
-        ];
+
 
         for (let bakarElement of bakar) {
             for (let string of bakarElement) {

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d40acedd-0a62-4702-a5b6-6386f08a12b8" name="Default Changelist" comment="" />
+    <list default="true" id="d40acedd-0a62-4702-a5b6-6386f08a12b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contentScripts/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/contentScripts/function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contentScripts/newView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contentScripts/variables.js" beforeDir="false" afterPath="$PROJECT_DIR$/contentScripts/variables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/injectScript/scanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/injectScript/scanner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup.js" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,9 +27,9 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -27,7 +38,7 @@
           <entry key="html" value="1" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="2" />
-          <entry key="js" value="11" />
+          <entry key="js" value="12" />
           <entry key="json" value="3" />
           <entry key="png" value="1" />
           <entry key="variables" value="1" />
@@ -39,22 +50,22 @@
           <entry key="HTML" value="1" />
           <entry key="Image" value="4" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="12" />
+          <entry key="JavaScript" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="431" />
           <entry key="dummy" value="1" />
-          <entry key="js" value="7304" />
-          <entry key="json" value="58" />
+          <entry key="js" value="7359" />
+          <entry key="json" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="431" />
-          <entry key="JSON" value="58" />
-          <entry key="JavaScript" value="7304" />
+          <entry key="JSON" value="59" />
+          <entry key="JavaScript" value="7359" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -69,7 +80,10 @@
         <entry file="file://$PROJECT_DIR$/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#291#601#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/contentScripts/contentScript.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="16" column="86" lean-forward="true" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+              <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -86,39 +100,41 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contentScripts/function.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
+            <state relative-caret-position="713">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding>
-                <element signature="e#72#100#0" />
-                <element signature="e#194#319#0" />
-                <element signature="n#!!block;n#termenalSetter#0" />
-                <element signature="n#!!block;n#errorMsgCheaker#0" />
-                <element signature="n#!!block;n#detailsChecker#0" />
-                <element signature="n#!!block;n#infoReader#0" />
-                <element signature="e#5512#6000#0" />
-                <element signature="e#5478#5489#0" />
-                <element signature="e#5664#5877#0" />
-                <element signature="e#6572#6699#0" />
-                <element signature="e#2237#2293#0" />
-                <element signature="e#3514#4226#0" />
-                <element signature="e#4619#5477#0" />
+                <element signature="e#3750#3919#0" />
+                <element signature="e#4037#4251#0" />
+                <element signature="e#5706#6194#0" />
+                <element signature="e#6672#6799#0" />
+                <element signature="e#6901#7940#0" />
+                <element signature="e#8005#8061#0" />
+                <element signature="e#8150#8884#0" />
+                <element signature="e#8971#9829#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contentScripts/newView.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/contentScripts/variables.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/injectScript/scanner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="69">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#28#406#0" />
+                <element signature="e#444#789#0" />
+                <element signature="e#867#2752#0" />
+                <element signature="e#2777#3304#0" />
               </folding>
             </state>
           </provider>
@@ -147,6 +163,9 @@
       <find>zipCodeExtactor</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -154,13 +173,13 @@
         <option value="$PROJECT_DIR$/popup.html" />
         <option value="$PROJECT_DIR$/popup.css" />
         <option value="$PROJECT_DIR$/css/util.css" />
-        <option value="$PROJECT_DIR$/injectScript/scanner.js" />
-        <option value="$PROJECT_DIR$/manifest.json" />
-        <option value="$PROJECT_DIR$/contentScripts/variables.js" />
         <option value="$PROJECT_DIR$/css/myStyles.css" />
         <option value="$PROJECT_DIR$/contentScripts/newView.js" />
         <option value="$PROJECT_DIR$/contentScripts/time.js" />
         <option value="$PROJECT_DIR$/contentScripts/contentScript.js" />
+        <option value="$PROJECT_DIR$/injectScript/scanner.js" />
+        <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/contentScripts/variables.js" />
         <option value="$PROJECT_DIR$/contentScripts/function.js" />
       </list>
     </option>
@@ -176,6 +195,7 @@
     <option name="width" value="1194" />
     <option name="height" value="1054" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollToSource ProjectPane="false" />
@@ -194,16 +214,6 @@
               <item name="fraktKedjanVast" type="b2602c69:ProjectViewProjectNode" />
               <item name="fraktKedjanVast" type="462c0819:PsiDirectoryNode" />
               <item name="contentScripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fraktKedjanVast" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fraktKedjanVast" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fraktKedjanVast" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fraktKedjanVast" type="462c0819:PsiDirectoryNode" />
-              <item name="sounds" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -248,11 +258,12 @@
       <workItem from="1545369437257" duration="577000" />
       <workItem from="1547697688563" duration="44962000" />
       <workItem from="1547938864070" duration="18030000" />
+      <workItem from="1547977871299" duration="2587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71511000" />
+    <option name="totallyTimeSpent" value="74098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
@@ -327,31 +338,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/contentScripts/variables" />
-    <entry file="file://$PROJECT_DIR$/injectScript/scanner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="e#28#406#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contentScripts/variables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contentScripts/time.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="n#!!block;n#startTime#0" />
-            <element signature="n#!!block;n#checkTime#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -385,41 +375,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.json">
+    <entry file="file://$PROJECT_DIR$/injectScript/scanner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="69">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#28#406#0" />
+            <element signature="e#444#789#0" />
+            <element signature="e#867#2752#0" />
+            <element signature="e#2777#3304#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contentScripts/newView.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#291#601#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contentScripts/contentScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="16" column="86" lean-forward="true" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+          <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contentScripts/variables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contentScripts/function.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
+        <state relative-caret-position="713">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding>
-            <element signature="e#72#100#0" />
-            <element signature="e#194#319#0" />
-            <element signature="n#!!block;n#termenalSetter#0" />
-            <element signature="n#!!block;n#errorMsgCheaker#0" />
-            <element signature="n#!!block;n#detailsChecker#0" />
-            <element signature="n#!!block;n#infoReader#0" />
-            <element signature="e#5512#6000#0" />
-            <element signature="e#5478#5489#0" />
-            <element signature="e#5664#5877#0" />
-            <element signature="e#6572#6699#0" />
-            <element signature="e#2237#2293#0" />
-            <element signature="e#3514#4226#0" />
-            <element signature="e#4619#5477#0" />
+            <element signature="e#3750#3919#0" />
+            <element signature="e#4037#4251#0" />
+            <element signature="e#5706#6194#0" />
+            <element signature="e#6672#6799#0" />
+            <element signature="e#6901#7940#0" />
+            <element signature="e#8005#8061#0" />
+            <element signature="e#8150#8884#0" />
+            <element signature="e#8971#9829#0" />
           </folding>
         </state>
       </provider>
