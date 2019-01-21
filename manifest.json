@@ -1,0 +1,32 @@
+{
+  "name": "FK-Do It",
+  "version": "0.0.1",
+  "description": "1 minut jobb",
+  "permissions": [],
+
+  "browser_action": {
+      "default_title": "FK Do it",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_style": "popup.css"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://fkv.tp.logivia.se/Consolidation/Scan"],
+      "css": ["css/myStyles.css"],
+      "js": ["contentScripts/variables.js","contentScripts/jquery-min.js","contentScripts/newView.js","contentScripts/time.js","contentScripts/function.js","contentScripts/contentScript.js"]
+
+    }
+  ],
+
+  "web_accessible_resources": [
+    "sounds/*.WAV",
+    "injectScript/*.js"
+  ],
+
+
+
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}

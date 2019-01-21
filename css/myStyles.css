@@ -1,0 +1,153 @@
+#header {
+    display: none;
+}
+#main {
+    display: none;
+}
+#Details{
+    display: none;
+}
+.page {
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newView  {
+    padding: 24px 18px 18px 10px;
+
+    display: grid;
+    grid-template-columns: auto auto auto 220px;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+            "header header header header"
+            "headerSecond headerSecond headerSecond headerSecond"
+            "time countText count ready"
+            "main main main main "
+            "footer footer footer footer";
+}
+
+div#wereIs {
+    grid-area: header;
+    height: auto;
+    text-align: center;
+    color: red;
+    background: beige;
+    font-size: 5em;
+    font-style: inherit;
+    font-family: unset;
+    font-weight: bolder;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+div#input{
+    grid-area: headerSecond;
+}
+input#barCode{
+    font-size: 3em;
+    width: 100%!important;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+div#infoTime {
+    grid-area: time;
+    font-size: 5em;
+    text-align: center;
+}
+
+div#antalkoliText {
+    grid-area: countText;
+    color: crimson;
+    font-size: 5em;
+    text-align: center;
+}
+
+div#antalkoli {
+    grid-area: count;
+    color: crimson;
+    font-size: 5em;
+    text-align: center;
+}
+button#ReadyButton {
+    grid-area: ready;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+div#info {
+    grid-area: main;
+    height: auto;
+    text-align: center;
+    color: rgba(15, 0, 9, 0.87);
+    background: beige;
+    font-size: 5em;
+    font-style: inherit;
+    font-family: unset;
+    font-weight: bolder;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+table#newInfoTable {
+    grid-area: footer;
+    font-size: 3em;
+}
+
+
+table.redTable {
+    border: 2px solid #A40808;
+    background-color: #EEE7DB;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.redTable td, table.redTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+table.redTable tbody td {
+    font-size: 13px;
+}
+table.redTable tr:nth-child(even) {
+    background: #F5C8BF;
+}
+table.redTable thead {
+    background: #A40808;
+}
+table.redTable thead th {
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #A40808;
+}
+table.redTable thead th:first-child {
+    border-left: none;
+}
+table.redTable tfoot {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #A40808;
+}
+table.redTable tfoot td {
+    font-size: 13px;
+}
+table.redTable tfoot .links {
+    text-align: right;
+}
+table.redTable tfoot .links a{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #A40808;
+    padding: 2px 8px;
+    border-radius: 5px;
+}

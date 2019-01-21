@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d40acedd-0a62-4702-a5b6-6386f08a12b8" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1287338139">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="10" />
+          <entry key="html" value="1" />
+          <entry key="ico" value="1" />
+          <entry key="jpg" value="2" />
+          <entry key="js" value="11" />
+          <entry key="json" value="3" />
+          <entry key="png" value="1" />
+          <entry key="variables" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="10" />
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="4" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="431" />
+          <entry key="dummy" value="1" />
+          <entry key="js" value="7304" />
+          <entry key="json" value="58" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="431" />
+          <entry key="JSON" value="58" />
+          <entry key="JavaScript" value="7304" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="fraktKedjanVast" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contentScripts/contentScript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="86" lean-forward="true" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contentScripts/function.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
+              <folding>
+                <element signature="e#72#100#0" />
+                <element signature="e#194#319#0" />
+                <element signature="n#!!block;n#termenalSetter#0" />
+                <element signature="n#!!block;n#errorMsgCheaker#0" />
+                <element signature="n#!!block;n#detailsChecker#0" />
+                <element signature="n#!!block;n#infoReader#0" />
+                <element signature="e#5512#6000#0" />
+                <element signature="e#5478#5489#0" />
+                <element signature="e#5664#5877#0" />
+                <element signature="e#6572#6699#0" />
+                <element signature="e#2237#2293#0" />
+                <element signature="e#3514#4226#0" />
+                <element signature="e#4619#5477#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contentScripts/newView.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/injectScript/scanner.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+              <folding>
+                <element signature="e#28#406#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>main</find>
+      <find>newTab</find>
+      <find>wereisGo</find>
+      <find>info</find>
+      <find>deta</find>
+      <find>addToScanList</find>
+      <find>arrayREader</find>
+      <find>.setAttribute(&quot;id&quot;,</find>
+      <find>data.split(&quot;&lt;br&gt;&quot;)[1].trim()</find>
+      <find>zipCodeExtactor</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/popup.js" />
+        <option value="$PROJECT_DIR$/popup.html" />
+        <option value="$PROJECT_DIR$/popup.css" />
+        <option value="$PROJECT_DIR$/css/util.css" />
+        <option value="$PROJECT_DIR$/injectScript/scanner.js" />
+        <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/contentScripts/variables.js" />
+        <option value="$PROJECT_DIR$/css/myStyles.css" />
+        <option value="$PROJECT_DIR$/contentScripts/newView.js" />
+        <option value="$PROJECT_DIR$/contentScripts/time.js" />
+        <option value="$PROJECT_DIR$/contentScripts/contentScript.js" />
+        <option value="$PROJECT_DIR$/contentScripts/function.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="495" />
+    <option name="width" value="1194" />
+    <option name="height" value="1054" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="false" />
+      <sortByType ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fraktKedjanVast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fraktKedjanVast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fraktKedjanVast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fraktKedjanVast" type="462c0819:PsiDirectoryNode" />
+              <item name="contentScripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fraktKedjanVast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fraktKedjanVast" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fraktKedjanVast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fraktKedjanVast" type="462c0819:PsiDirectoryNode" />
+              <item name="sounds" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/injectScript" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d40acedd-0a62-4702-a5b6-6386f08a12b8" name="Default Changelist" comment="" />
+      <created>1545246376298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545246376298</updated>
+      <workItem from="1545246378758" duration="7942000" />
+      <workItem from="1545369437257" duration="577000" />
+      <workItem from="1547697688563" duration="44962000" />
+      <workItem from="1547938864070" duration="18030000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="71511000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.15376514" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32938644" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15376514" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.32938644" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bg-01.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/bg-02.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/icons/logo.png" />
+    <entry file="file://$PROJECT_DIR$/images/icons/favicon.ico" />
+    <entry file="file://$PROJECT_DIR$/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/css/util.css" />
+    <entry file="file://$PROJECT_DIR$/popup.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contentScripts/variables" />
+    <entry file="file://$PROJECT_DIR$/injectScript/scanner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="e#28#406#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contentScripts/variables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contentScripts/time.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="n#!!block;n#startTime#0" />
+            <element signature="n#!!block;n#checkTime#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/myStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="28" />
+          <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="1" />
+          <caret line="44" selection-start-line="44" selection-end-line="44" selection-end-column="14" />
+          <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="19" />
+          <caret line="46" selection-start-line="46" selection-end-line="46" selection-end-column="26" />
+          <caret line="47" selection-start-line="47" selection-end-line="47" selection-end-column="23" />
+          <caret line="48" selection-start-line="48" selection-end-line="48" selection-end-column="18" />
+          <caret line="49" selection-start-line="49" selection-end-line="49" selection-end-column="26" />
+          <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="27" />
+          <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="23" />
+          <caret line="52" selection-start-line="52" selection-end-line="52" selection-end-column="27" />
+          <caret line="53" selection-start-line="53" selection-end-line="53" selection-end-column="1" />
+          <caret line="54" selection-start-line="54" selection-end-line="54" selection-end-column="14" />
+          <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="20" />
+          <caret line="56" selection-start-line="56" selection-end-line="56" selection-end-column="19" />
+          <caret line="57" selection-start-line="57" selection-end-line="57" selection-end-column="23" />
+          <caret line="58" selection-start-line="58" selection-end-line="58" selection-end-column="1" />
+          <caret line="60" selection-start-line="60" selection-end-line="60" selection-end-column="19" />
+          <folding>
+            <element signature="e#8#30#0" />
+            <element signature="e#37#59#0" />
+            <element signature="e#68#90#0" />
+            <element signature="e#97#175#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contentScripts/newView.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contentScripts/contentScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="86" lean-forward="true" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contentScripts/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
+          <folding>
+            <element signature="e#72#100#0" />
+            <element signature="e#194#319#0" />
+            <element signature="n#!!block;n#termenalSetter#0" />
+            <element signature="n#!!block;n#errorMsgCheaker#0" />
+            <element signature="n#!!block;n#detailsChecker#0" />
+            <element signature="n#!!block;n#infoReader#0" />
+            <element signature="e#5512#6000#0" />
+            <element signature="e#5478#5489#0" />
+            <element signature="e#5664#5877#0" />
+            <element signature="e#6572#6699#0" />
+            <element signature="e#2237#2293#0" />
+            <element signature="e#3514#4226#0" />
+            <element signature="e#4619#5477#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
