@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d40acedd-0a62-4702-a5b6-6386f08a12b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contentScripts/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/contentScripts/function.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contentScripts/newView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contentScripts/variables.js" beforeDir="false" afterPath="$PROJECT_DIR$/contentScripts/variables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/myStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/myStyles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/injectScript/scanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/injectScript/scanner.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/popup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/popup.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,18 +21,18 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="10" />
+          <entry key="css" value="11" />
           <entry key="html" value="1" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="2" />
-          <entry key="js" value="12" />
+          <entry key="js" value="13" />
           <entry key="json" value="3" />
           <entry key="png" value="1" />
           <entry key="variables" value="1" />
@@ -46,26 +40,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="10" />
+          <entry key="CSS" value="11" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="4" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="13" />
+          <entry key="JavaScript" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="431" />
+          <entry key="css" value="434" />
           <entry key="dummy" value="1" />
-          <entry key="js" value="7359" />
-          <entry key="json" value="59" />
+          <entry key="js" value="7411" />
+          <entry key="json" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="431" />
-          <entry key="JSON" value="59" />
-          <entry key="JavaScript" value="7359" />
+          <entry key="CSS" value="434" />
+          <entry key="JSON" value="70" />
+          <entry key="JavaScript" value="7411" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -79,10 +73,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="138">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
-                <element signature="e#291#601#0" />
+                <element signature="n#!!block;n#browser_action#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/myStyles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#8#30#0" />
+                <element signature="e#37#59#0" />
+                <element signature="e#68#90#0" />
+                <element signature="e#97#175#0" />
               </folding>
             </state>
           </provider>
@@ -97,21 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contentScripts/function.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
+            <state relative-caret-position="23">
               <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-              <folding>
-                <element signature="e#3750#3919#0" />
-                <element signature="e#4037#4251#0" />
-                <element signature="e#5706#6194#0" />
-                <element signature="e#6672#6799#0" />
-                <element signature="e#6901#7940#0" />
-                <element signature="e#8005#8061#0" />
-                <element signature="e#8150#8884#0" />
-                <element signature="e#8971#9829#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -119,22 +118,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contentScripts/variables.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+            <state relative-caret-position="207">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/injectScript/scanner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="519">
+              <caret line="86" column="33" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="33" />
               <folding>
                 <element signature="e#28#406#0" />
-                <element signature="e#444#789#0" />
-                <element signature="e#867#2752#0" />
-                <element signature="e#2777#3304#0" />
               </folding>
             </state>
           </provider>
@@ -173,14 +169,15 @@
         <option value="$PROJECT_DIR$/popup.html" />
         <option value="$PROJECT_DIR$/popup.css" />
         <option value="$PROJECT_DIR$/css/util.css" />
-        <option value="$PROJECT_DIR$/css/myStyles.css" />
         <option value="$PROJECT_DIR$/contentScripts/newView.js" />
         <option value="$PROJECT_DIR$/contentScripts/time.js" />
         <option value="$PROJECT_DIR$/contentScripts/contentScript.js" />
-        <option value="$PROJECT_DIR$/injectScript/scanner.js" />
-        <option value="$PROJECT_DIR$/manifest.json" />
         <option value="$PROJECT_DIR$/contentScripts/variables.js" />
         <option value="$PROJECT_DIR$/contentScripts/function.js" />
+        <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/css/myStyles.css" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/injectScript/scanner.js" />
       </list>
     </option>
   </component>
@@ -214,6 +211,11 @@
               <item name="fraktKedjanVast" type="b2602c69:ProjectViewProjectNode" />
               <item name="fraktKedjanVast" type="462c0819:PsiDirectoryNode" />
               <item name="contentScripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fraktKedjanVast" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fraktKedjanVast" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,18 +260,19 @@
       <workItem from="1545369437257" duration="577000" />
       <workItem from="1547697688563" duration="44962000" />
       <workItem from="1547938864070" duration="18030000" />
-      <workItem from="1547977871299" duration="2587000" />
+      <workItem from="1547977871299" duration="5614000" />
+      <workItem from="1548221376138" duration="2629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74098000" />
+    <option name="totallyTimeSpent" value="79754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.15376514" />
+      <window_info content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.15376514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -287,25 +290,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15376514" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.32938644" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -313,30 +297,27 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/injectScript/scanner.js</url>
+          <line>127</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/popup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/popup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/popup.js" />
+    <entry file="file://$PROJECT_DIR$/popup.html" />
     <entry file="file://$PROJECT_DIR$/images/bg-01.jpg" />
     <entry file="file://$PROJECT_DIR$/images/bg-02.jpg" />
     <entry file="file://$PROJECT_DIR$/images/icons/logo.png" />
     <entry file="file://$PROJECT_DIR$/images/icons/favicon.ico" />
     <entry file="file://$PROJECT_DIR$/css/main.css" />
     <entry file="file://$PROJECT_DIR$/css/util.css" />
-    <entry file="file://$PROJECT_DIR$/popup.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/popup.css" />
     <entry file="file://$PROJECT_DIR$/contentScripts/variables" />
     <entry file="file://$PROJECT_DIR$/contentScripts/time.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -345,58 +326,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/contentScripts/newView.js" />
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!block;n#browser_action#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/myStyles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="28" />
-          <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="1" />
-          <caret line="44" selection-start-line="44" selection-end-line="44" selection-end-column="14" />
-          <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="19" />
-          <caret line="46" selection-start-line="46" selection-end-line="46" selection-end-column="26" />
-          <caret line="47" selection-start-line="47" selection-end-line="47" selection-end-column="23" />
-          <caret line="48" selection-start-line="48" selection-end-line="48" selection-end-column="18" />
-          <caret line="49" selection-start-line="49" selection-end-line="49" selection-end-column="26" />
-          <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="27" />
-          <caret line="51" selection-start-line="51" selection-end-line="51" selection-end-column="23" />
-          <caret line="52" selection-start-line="52" selection-end-line="52" selection-end-column="27" />
-          <caret line="53" selection-start-line="53" selection-end-line="53" selection-end-column="1" />
-          <caret line="54" selection-start-line="54" selection-end-line="54" selection-end-column="14" />
-          <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="20" />
-          <caret line="56" selection-start-line="56" selection-end-line="56" selection-end-column="19" />
-          <caret line="57" selection-start-line="57" selection-end-line="57" selection-end-column="23" />
-          <caret line="58" selection-start-line="58" selection-end-line="58" selection-end-column="1" />
-          <caret line="60" selection-start-line="60" selection-end-line="60" selection-end-column="19" />
+        <state relative-caret-position="460">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#8#30#0" />
             <element signature="e#37#59#0" />
             <element signature="e#68#90#0" />
             <element signature="e#97#175#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/injectScript/scanner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#28#406#0" />
-            <element signature="e#444#789#0" />
-            <element signature="e#867#2752#0" />
-            <element signature="e#2777#3304#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contentScripts/newView.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#291#601#0" />
           </folding>
         </state>
       </provider>
@@ -408,26 +357,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="112" lean-forward="true" selection-start-line="109" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contentScripts/variables.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contentScripts/function.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
+        <state relative-caret-position="23">
           <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/injectScript/scanner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="86" column="33" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="33" />
           <folding>
-            <element signature="e#3750#3919#0" />
-            <element signature="e#4037#4251#0" />
-            <element signature="e#5706#6194#0" />
-            <element signature="e#6672#6799#0" />
-            <element signature="e#6901#7940#0" />
-            <element signature="e#8005#8061#0" />
-            <element signature="e#8150#8884#0" />
-            <element signature="e#8971#9829#0" />
+            <element signature="e#28#406#0" />
           </folding>
         </state>
       </provider>

@@ -51,23 +51,7 @@ barCodeCheck = function barCodeCheck() {
         var bc = GetNextBarCode(barCode + ' ');
         if (bc != "") {
             if (ValidateBarcode(bc)) {
-                if (bc === "999999999999999990"){
-                    sendEpost("GDL");
 
-                    SetError('GDL ankomst raport var sickad');
-                }else if (bc ==="999999999999999991"){
-                    sendEpost("Onninen");
-
-                    SetError('Onninen ankomst raport var sickad');
-                }else  if(bc === "999999999999999992"){
-                    sendEpost("Storel");
-
-                    SetError('Storel ankomst raport var sickad');
-                }else  if(bc === "999999999999999993"){
-                    sendEpost("Electroscandia");
-
-                    SetError('Electroscandia ankomst raport var sickad');
-                }
 
                 RegisterNewBarCode(bc);
                 console.log("IM HERE !!!!!");
@@ -81,9 +65,66 @@ barCodeCheck = function barCodeCheck() {
         }
     }
 
-
     setTimeout("barCodeCheck()", 10);
-};
+}
+function ValidateBarcode(bc) {
+    //TODO: Check if it already scanned
+    bc = bc.trim();
+    if (bc === "999999999999999990"){
+        sendEpost("GDL");
+        SetError('GDL ankomst raport var sickad');
+        return false
+
+    }else if (bc ==="999999999999999991"){
+        sendEpost("Onninen");
+        SetError('Onninen ankomst raport var sickad')
+        return false
+    }else  if(bc === "999999999999999992"){
+        sendEpost("Storel");
+        SetError('Storel ankomst raport var sickad');
+        return false
+    }else  if(bc === "999999999999999993"){
+        sendEpost("Electroscandia");
+        SetError('Electroscandia ankomst raport var sickad')
+        return false
+
+    }else if (bc == '') {
+        SetError('Tom streckkod.');
+        return false;
+    }else if (IsInBarCodeList(bc)) {
+        SetError(bc + ' finns redan i listan.');
+        return false;
+    }
+    else if (checkIfIsNumber)
+        if (!isNumber(bc)) {
+            SetError(bc + ' ej numeriskt');
+            return false;
+        }
+
+    //TODO: Gör inställning så att LBS kan använda den
+    var l = bc.length;
+    //Check Length
+
+    //var allowedLengths = util_GetSetting('AllowedBarCodeLength', Config_AllowedBarCodeLength);
+    if (allowedLengths != '' && allowedLengths != undefined) {
+        var lengths = allowedLengths.split(',');
+        if ($.inArray(l.toString(), lengths) < 0) {
+            //if (!(l == 10 || l == 17 || l == 18 || l == 20)) {
+            SetError(bc + ' har fel längd.');
+            return false;
+        }
+    }
+    SetError('');
+    return true;
+}
+
+
+
+function SetError(msg) {
+    $("#info").html(msg);
+}
+
+
 save = function save() {
     if (barCodeList === "") {
         console.log('Finns inga streckkoder att spara.');

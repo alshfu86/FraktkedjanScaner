@@ -12,6 +12,9 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
 .newView  {
     padding: 24px 18px 18px 10px;
 
@@ -100,8 +103,6 @@ table#newInfoTable {
     grid-area: footer;
     font-size: 3em;
 }
-
-
 table.redTable {
     border: 2px solid #A40808;
     background-color: #EEE7DB;
